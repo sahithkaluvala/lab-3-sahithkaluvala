@@ -1,0 +1,77 @@
+header{
+    background-color: rgb(7, 7, 56);
+    background-image: url(../images/sunset.jpg) ;
+    color: white;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 1px;
+    
+}
+
+body{
+    background-image: url(../images/background.jpg)
+}
+#wrapper{
+    background-color: white;
+    min-width: 700px;
+    max-width: 1040px;
+    max-height: 1200px;
+    margin: auto;
+    box-shadow: 3px 3px 2px gray;
+ }
+nav{
+  height: 468px;
+  width: 160px;
+  text-align: left;
+  float: left;
+  background-color: rgb(165, 243, 243); 
+  margin-right: 15px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: left;   
+    margin-left: -15px;
+
+}
+nav ul a{
+     text-decoration: none;
+    font-weight: bold;
+    font-size: 19px ;
+    text-align: left;
+}
+main{
+    min-width: 700px;
+    max-width: 1040px;
+    color: grey;
+}
+main ul {
+padding-left: 500px;
+}
+main p{
+    text-decoration: none;
+    padding-left: 10px;
+}
+#subhead{
+    font-weight: bold;
+    color: rgb(79, 149, 182);
+    font-size: x-large;
+    font-family: "Times New Roman", Times, serif;
+    padding: 0;
+ }
+ .floatleft{
+    float: left;
+    margin-right: 10px;
+    
+}
+#parabold{
+    font-weight: bold;
+    color: black;
+    font-size: initial;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    color: grey;
+}
